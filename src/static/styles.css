@@ -90,8 +90,8 @@ section h3 {
 }
 
 .participants-list {
-  list-style-type: disc;
-  margin-left: 20px;
+  list-style-type: none; /* Hide bullet points */
+  margin-left: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
@@ -176,4 +176,19 @@ footer {
   margin-top: 30px;
   padding: 20px;
   color: #666;
+}
+
+.delete-participant-btn {
+  background: none;
+  border: none;
+  color: #c62828;
+  font-size: 16px;
+  margin-left: 8px;
+  cursor: pointer;
+  vertical-align: middle;
+  padding: 0;
+}
+
+.delete-participant-btn:hover {
+  color: #b71c1c;
 }
